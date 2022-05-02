@@ -1,9 +1,12 @@
 <script setup>
+import AppHeader from './components/AppHeader.vue'
 import ItemList from './components/ItemList.vue'
 import AddExpenseButton from './components/AddExpenseButton.vue'
 </script>
 
 <template>
+  <AppHeader />
+
   <ItemList />
 
   <AddExpenseButton />
@@ -16,10 +19,8 @@ import AddExpenseButton from './components/AddExpenseButton.vue'
 @tailwind utilities;
 
 #app {
-  max-width: 1280px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
 
   font-weight: normal;
   color: white;
