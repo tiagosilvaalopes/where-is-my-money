@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@vueuse/components": "^8.3.1",
     "@vueuse/core": "^8.3.1",
     "pinia": "^2.0.13",
     "vue": "^3.2.33"

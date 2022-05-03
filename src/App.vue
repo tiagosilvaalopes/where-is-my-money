@@ -4,7 +4,7 @@ import ItemList from './components/ItemList.vue'
 import AddExpenseButton from './components/AddExpenseButton.vue'
 </script>
 
-<template>
+<template class="dark">
   <AppHeader />
 
   <ItemList />

@@ -5,7 +5,7 @@ const store = useExpenseStore()
 </script>
 
 <template>
-  <div class="categories mx-3">
+  <div class="categories px-3">
     <button
       v-for="(category, key) in store.categories"
       :key="key"
